@@ -6,4 +6,4 @@ docker run \
     -e DISPLAY \
     -e XAUTHORITY \
     -v ${XAUTHORITY}:${XAUTHORITY} \
-    --rm eye bash
+    eye bash
